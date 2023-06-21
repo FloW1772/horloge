@@ -1,0 +1,29 @@
+.Clock {
+    width: 300px;
+    height: 300px;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hr, .mn, .sc {
+    width: 6px;
+    height: 130px;
+    background-color: #333;
+    position: relative;
+    transform-origin: bottom center;
+  }
+  
+  .mn {
+    height: 150px;
+    background-color: #555;
+  }
+  
+  .sc {
+    height: 170px;
+    background-color: #f00;
+  }
+  
+  

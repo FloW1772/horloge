@@ -7,27 +7,24 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-left: 400px; /* Ajout de cette ligne pour déplacer le cercle vers la droite */
 }
 
-.hr, .mn, .sc {
+.hour, .min, .sec {
   width: 6px;
   height: 130px;
   background-color: #333;
-  position: absolute;
+  position: relative;
   transform-origin: bottom center;
-  left: calc(50% - 3px);
-  top: calc(50% - 130px);
 }
 
-.mn {
-  height: 150px;
-  background-color: #555;
-  top: calc(50% - 150px);
+.hour {
+  transform: rotate(-157.5deg);
 }
 
-.sc {
-  height: 170px;
-  background-color: #f00;
-  top: calc(50% - 170px);
+.min {
+  transform: rotate(-67.5deg);
+}
+
+.sec {
+  transform: rotate(-22.5deg);
 }
